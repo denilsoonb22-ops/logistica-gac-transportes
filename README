@@ -1,21 +1,29 @@
-# Plataforma Logística - GAC Transportes 🚛
+Plataforma Logística y aplicaciones - GAC Transportes 
 
-### Período: Julio - Diciembre 2025
+Período: Julio - Diciembre 2025
 
-## 📝 Descripción del Proyecto
-[cite_start]Desarrollo y mantenimiento de una plataforma integral para la gestión logística interna, conectando la administración central con la flota de transporte en tiempo real.
+Descripción del Proyecto
+Desarrollo de una solución híbrida compuesta por una Plataforma Web Administrativa y una Aplicación Móvil Operativa, diseñadas para centralizar la logística y el control de activos de la flota.
 
-## 🚀 Funcionalidades Clave
-* [cite_start]**Monitoreo de Unidades:** Integración con APIs externas para ejecución de comandos remotos como bloqueo de motor, apertura de puertas y reinicio de GPS.
-* [cite_start]**Módulo Móvil (Android WebView):** Interfaz optimizada para operadores que incluye gestión de inicio de sesión, registro de asistencia y seguimiento de servicios.
-* [cite_start]**Control de Insumos:** Sistema de registro para cargas de combustible, control de gastos y cálculo de rendimientos.
-* [cite_start]**Automatización de Flujo:** Sincronización automática entre el área de Operaciones y los Operadores para el envío de notificaciones y ubicación.
+Arquitectura del Sistema
 
-## 🛠️ Tecnologías Utilizadas
-* [cite_start]**Backend:** PHP / JSON 
-* [cite_start]**Frontend:** JavaScript, HTML5, CSS3 
-* [cite_start]**Móvil:** Android (Java / WebView) 
-* [cite_start]**Base de Datos:** MySQL (Gestión con Navicat) 
+1. Plataforma Interna (Web)
+Módulo centralizado para la administración y toma de decisiones:
+Gestión de Servicios: Registro y seguimiento de evidencias de cada viaje.
+Control de Insumos: Monitoreo de cargas de combustible, gastos operativos y cálculo automático de rendimientos.
+Flujo de Operaciones: Automatización de la comunicación entre el despacho de servicios y los operadores.
 
-## 🎨 Enfoque UX/UI
-Para este proyecto, se priorizó la **facilidad de uso en campo**. [cite_start]La interfaz móvil fue diseñada para ser utilizada por operadores en ruta, con botones grandes, contrastes altos y flujos de trabajo simplificados para el registro de evidencias.
+2. Aplicación Móvil (Android WebView)
+Herramienta de control en campo e interacción directa con el hardware:
+Comandos IoT: Integración de APIs externas para la ejecución de comandos críticos: bloqueo de motor, apertura de puertas y reinicio de GPS.
+Registro de Actividades: Interfaz para que el operador registre asistencia, ubicación y gastos en tiempo real.
+Sincronización: Consumo de servicios JSON para mantener los datos actualizados con la plataforma central.
+
+Tecnologías Utilizadas
+Backend: PHP / JSON
+Frontend: JavaScript, HTML5, CSS3
+Móvil: Android (Java)
+Base de Datos: MySQL (Gestión con Navicat)
+
+Enfoque UX/UI
+Se diseñó una interfaz móvil de alta prioridad para la operación, asegurando que los comandos de control (como el bloqueo de motor) fueran accesibles y seguros para evitar ejecuciones accidentales, cumpliendo con estándares de usabilidad para personal de transporte.
