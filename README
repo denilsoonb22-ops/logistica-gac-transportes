@@ -1,0 +1,21 @@
+# Plataforma Logística - GAC Transportes 🚛
+
+### Período: Julio - Diciembre 2025
+
+## 📝 Descripción del Proyecto
+[cite_start]Desarrollo y mantenimiento de una plataforma integral para la gestión logística interna, conectando la administración central con la flota de transporte en tiempo real.
+
+## 🚀 Funcionalidades Clave
+* [cite_start]**Monitoreo de Unidades:** Integración con APIs externas para ejecución de comandos remotos como bloqueo de motor, apertura de puertas y reinicio de GPS.
+* [cite_start]**Módulo Móvil (Android WebView):** Interfaz optimizada para operadores que incluye gestión de inicio de sesión, registro de asistencia y seguimiento de servicios.
+* [cite_start]**Control de Insumos:** Sistema de registro para cargas de combustible, control de gastos y cálculo de rendimientos.
+* [cite_start]**Automatización de Flujo:** Sincronización automática entre el área de Operaciones y los Operadores para el envío de notificaciones y ubicación.
+
+## 🛠️ Tecnologías Utilizadas
+* [cite_start]**Backend:** PHP / JSON 
+* [cite_start]**Frontend:** JavaScript, HTML5, CSS3 
+* [cite_start]**Móvil:** Android (Java / WebView) 
+* [cite_start]**Base de Datos:** MySQL (Gestión con Navicat) 
+
+## 🎨 Enfoque UX/UI
+Para este proyecto, se priorizó la **facilidad de uso en campo**. [cite_start]La interfaz móvil fue diseñada para ser utilizada por operadores en ruta, con botones grandes, contrastes altos y flujos de trabajo simplificados para el registro de evidencias.
